@@ -50,7 +50,7 @@ namespace Module_1
                         Console.WriteLine("Who is watching ticket?: ");
                         watching = Console.ReadLine();
 
-                        sw.WriteLine(ticketID, summary, status, priority, submitter, assigned, watching);
+                        sw.WriteLine(ticketID + "," + summary + "," + status + "," + priority + "," + submitter + "," + assigned + "," + watching);
 
                         Console.WriteLine("Would you like to add a ticket? (y/n)");
                         addTicket = Console.ReadLine();
